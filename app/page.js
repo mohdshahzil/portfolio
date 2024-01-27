@@ -3,6 +3,7 @@ import Appbar from "@/components/Appbar";
 import Header from "@/components/Header";
 import { Divider } from "@nextui-org/react";
 import About from "@/components/About";
+import Skills from "@/components/Skills";
 const page = () => {
   return (
     <div className="h-full w-full overflow-y ">
@@ -16,6 +17,7 @@ const page = () => {
           <Divider className="my-8" />
           <About />
           <Divider className="my-8" />
+          <Skills />
           <h1 className="text-8xl">hey</h1>
           <h1 className="text-8xl">hey</h1>
           <h1 className="text-8xl">hey</h1>
