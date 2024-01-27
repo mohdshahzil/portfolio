@@ -10,8 +10,8 @@ import {
   NavbarMenuItem,
   NavbarMenu,
 } from "@nextui-org/react";
-import ArrowSVG from "./SVG/ArrowSVG";
-
+// import ArrowSVG from "./SVG/ArrowSVG";
+import GithubSVG from "./SVG/GithubSVG";
 export default function App() {
   const menuItems = ["Home", "About", "Projects", "Skills", "Contact"];
 
@@ -56,7 +56,8 @@ export default function App() {
       <NavbarContent justify="end">
         <NavbarItem>
           <p className="font-medium  flex hover:text-slate-500 hover:cursor-pointer ">
-            Contact Me <ArrowSVG></ArrowSVG>{" "}
+            {/* Contact Me <ArrowSVG></ArrowSVG> */}
+            <GithubSVG></GithubSVG>
           </p>
         </NavbarItem>
       </NavbarContent>
