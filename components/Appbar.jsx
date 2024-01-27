@@ -9,64 +9,55 @@ import {
   NavbarMenuToggle,
   NavbarMenuItem,
   NavbarMenu,
-  
 } from "@nextui-org/react";
+import ArrowSVG from "./SVG/ArrowSVG";
 
 export default function App() {
-  const menuItems = [
-    "Profile",
-    "Dashboard",
-    "Activity",
-    "Analytics",
-    "System",
-    "Deployments",
-    "My Settings",
-    "Team Settings",
-    "Help & Feedback",
-    "Log Out",
-  ];
+  const menuItems = ["Home", "About", "Projects", "Skills", "Contact"];
 
   return (
-    <Navbar  >
+    <Navbar>
       <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle />
       </NavbarContent>
 
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
-          <p className="font-bold text-inherit">MS</p>
+          <p className="font-medium text-2xl text-inherit">M.S</p>
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+      <NavbarContent className="hidden sm:flex gap-12" justify="center">
         <NavbarBrand>
-          <p className="font-bold text-inherit">MS</p>
+          <p className="text-inherit text-2xl font-medium ">M. Shahzil</p>
         </NavbarBrand>
         <NavbarItem>
-          <Link color="foreground" href="#">
-            Features
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page" color="warning">
-            Customers
+          <Link className="text-[#848484]" href="#">
+            Home
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
-            Integrations
+          <Link href="#" className="text-[#848484]" aria-current="page">
+            About
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link className="text-[#848484]" href="#">
+            Projects
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link className="text-[#848484]" href="#">
+            Skills
           </Link>
         </NavbarItem>
       </NavbarContent>
 
       <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
-        </NavbarItem>
         <NavbarItem>
-          <Button as={Link} color="warning" href="#" variant="flat">
-            Sign Up
-          </Button>
+          <p className="font-medium  flex hover:text-slate-500 hover:cursor-pointer ">
+            Contact Me <ArrowSVG></ArrowSVG>{" "}
+          </p>
         </NavbarItem>
       </NavbarContent>
 
