@@ -12,13 +12,24 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-
+import InstaSVG from "./SVG/InstaSVG";
+import LocationSVG from "./SVG/LocationSVG";
 const GetInTouch = () => {
   return (
     <div className="md:p-14 p-3">
       <div className="text-4xl">Get In Touch</div>
       <div className="flex flex-col md:flex-row lg:flex-row   items-center justify-between mt-8">
-        <div>left</div>
+        <div className="md:w-1/2 lg:w-1/2 w-full md:flex flex-col gap-3 items-center justify-center hidden ">
+          <div className="p-4">
+            <div className="flex flex-row gap-3 text-[#848484]">
+              <InstaSVG></InstaSVG> theshahzil@gmail.com
+            </div>
+            <div className="flex flex-row gap-3 text-[#848484]">
+              <LocationSVG></LocationSVG> Chennai, Tamil Nadu
+            </div>
+          </div>
+        </div>
+
         <Card className="md:w-1/2 lg:w-1/2 w-full ">
           <CardHeader>
             <CardTitle>Hit Me Up! I Promise, No Bugs Allowed</CardTitle>
