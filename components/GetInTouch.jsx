@@ -17,9 +17,9 @@ const GetInTouch = () => {
   return (
     <div className="md:p-14 p-3">
       <div className="text-4xl">Get In Touch</div>
-      <div className="flex   items-center justify-between mt-8">
+      <div className="flex flex-col md:flex-row lg:flex-row   items-center justify-between mt-8">
         <div>left</div>
-        <Card className="w-1/2">
+        <Card className="md:w-1/2 lg:w-1/2 w-full ">
           <CardHeader>
             <CardTitle>Hit Me Up! I Promise, No Bugs Allowed</CardTitle>
             <CardDescription>Don't Be Shy – Say Hi</CardDescription>
@@ -42,8 +42,11 @@ const GetInTouch = () => {
                   />
                 </div>
                 <div className="flex flex-col space-y-1.5">
-                <Label htmlFor="description">Description</Label>
-                  <Textarea  id="description" placeholder="In this box, you're the author, editor, and protagonist." />
+                  <Label htmlFor="description">Description</Label>
+                  <Textarea
+                    id="description"
+                    placeholder="In this box, you're the author, editor, and protagonist."
+                  />
                 </div>
               </div>
             </form>
