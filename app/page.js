@@ -11,7 +11,7 @@ const page = () => {
       <div className="">
         <Appbar />
       </div>
-      <div className="flex items-center justify-center p-6">
+      <div className="flex items-center justify-center px-6">
         <div className="w-full md:w-4/6 lg:w-4/6">
           <Divider className="my-4" />
           <Header />
