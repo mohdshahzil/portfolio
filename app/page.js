@@ -5,6 +5,7 @@ import { Divider } from "@nextui-org/react";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import GetInTouch from "@/components/GetInTouch";
+import Footer from "@/components/Footer";
 const page = () => {
   return (
     <div className="h-full w-full overflow-y ">
@@ -22,6 +23,7 @@ const page = () => {
           <Divider className="my-8" />
           <GetInTouch />
           <Divider className="my-8" />
+          <Footer />
         </div>
       </div>
     </div>
