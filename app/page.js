@@ -21,24 +21,7 @@ const page = () => {
           <Skills />
           <Divider className="my-8" />
           <GetInTouch />
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
-          <h1 className="text-8xl">hey</h1>
+          <Divider className="my-8" />
         </div>
       </div>
     </div>
